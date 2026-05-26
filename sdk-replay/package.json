@@ -1,0 +1,17 @@
+{
+  "name": "@flowr/sdk-replay",
+  "version": "0.1.0",
+  "description": "FlowR guided-replay SDK — embed in-page replays of FlowR recordings without the browser extension.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false
+}

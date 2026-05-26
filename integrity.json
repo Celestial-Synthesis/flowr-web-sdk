@@ -1,0 +1,52 @@
+{
+  "sdk-recorder/README.md": {
+    "sha256": "8189e3a0dd3bdca4832e3e9aceb44cad3c9134a2b8e6457ae3b2a9d6c54c693c",
+    "sri": "sha256-gYnjoN073KSDLj6azrRMrTyRNKK45kV647Kp1sVMaTw=",
+    "size": 602
+  },
+  "sdk-recorder/dist/index.cjs": {
+    "sha256": "ec5541f7f67dcf839a96b8da5dfcfa6e7759c87c8e049f6e4c8df635ebd17368",
+    "sri": "sha256-7FVB9/Z9z4OalrjaXfz6bndZyHyOBJ9uTI32NevRc2g=",
+    "size": 160023
+  },
+  "sdk-recorder/dist/index.d.ts": {
+    "sha256": "af6bc51d965d03588daf126163f39a08b23d6ec9c03ecf32c2ee443f2e1a5d95",
+    "sri": "sha256-r2vFHZZdA1iNrxJhY/OaCLI9bsnAPs8ywu5EPy4aXZU=",
+    "size": 3105
+  },
+  "sdk-recorder/dist/index.js": {
+    "sha256": "158cca4c2bb326b13bd114646c31f316fc7954eb49a8b220318bd59423f46daf",
+    "sri": "sha256-FYzKTCuzJrE70RRkbDHzFvx5VOtJqLIgMYvVlCP0ba8=",
+    "size": 160011
+  },
+  "sdk-recorder/package.json": {
+    "sha256": "7c5543e8bfa0e30a3a35df2f5da263b4e48e8fe5cda903e3e1598166c8bdbb7a",
+    "sri": "sha256-fFVD6L+g4wo6Nd8vXaJjtOSOj+XNqQPj4VmBZsi9u3o=",
+    "size": 613
+  },
+  "sdk-replay/README.md": {
+    "sha256": "3a71b1c67bbf6548badb89a1ac23b8a49ac1754ea93d8136d00d9459cfe504d4",
+    "sri": "sha256-OnGxxnu/ZUi624mhrCO4pJrBdU6pPYE20A2UWc/lBNQ=",
+    "size": 418
+  },
+  "sdk-replay/dist/index.cjs": {
+    "sha256": "8989ae742fa96baf929d2f86e76870bb2c973cde7f2fb879510df3a0a0773a1b",
+    "sri": "sha256-iYmudC+pa6+SnS+G52hwuyyXPN5/L7h5UQ3zoKB3Ohs=",
+    "size": 80336
+  },
+  "sdk-replay/dist/index.d.ts": {
+    "sha256": "e9ad7c2c41ca33e29d1ad737713aecc2a47f295726f38ea5519c6e9f251429d2",
+    "sri": "sha256-6a18LEHKM+KdGtc3cTrswqR/KVcm846lUZxunyUUKdI=",
+    "size": 3305
+  },
+  "sdk-replay/dist/index.js": {
+    "sha256": "5aa1299dfc67b51b9d67eae70e0e7e6378b2026a1f3de90dea3a92eb30d4cccd",
+    "sri": "sha256-WqEpnfxntRudZ+rnDg5+Y3iyAmofPekN6jqS6zDUzM0=",
+    "size": 80262
+  },
+  "sdk-replay/package.json": {
+    "sha256": "dec2655ac1402b7e7add1e9465bc81193d6b952b408959906f2e90f7f9e3c094",
+    "sri": "sha256-3sJlWsFAK3563R6UZbyBGT1rlStAiVmQby6Q9/njwJQ=",
+    "size": 458
+  }
+}

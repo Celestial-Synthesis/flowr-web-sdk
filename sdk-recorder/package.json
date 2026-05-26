@@ -1,0 +1,25 @@
+{
+  "name": "@flowr/sdk-recorder",
+  "version": "0.1.0",
+  "description": "FlowR recorder SDK — capture, edit, and replay guided walkthroughs in-page without the browser extension.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "html-to-image": "^1.11.11"
+  },
+  "peerDependenciesMeta": {
+    "html-to-image": {
+      "optional": true
+    }
+  }
+}
