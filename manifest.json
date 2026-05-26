@@ -1,17 +1,32 @@
 {
-  "generatedAt": "2026-05-26T08:18:40.079Z",
+  "generatedAt": "2026-05-26T17:04:18.683Z",
   "sourceRepository": "Celestial-Synthesis/flowr",
-  "sourceCommit": "8401dfac2e9578beacb02f96f8d964a3ba824cdd",
+  "sourceCommit": "0b4cac3bc1c70ea3bc05c47531d339dd8bbb78fa",
   "packages": [
     {
       "name": "@flowr/sdk-recorder",
       "version": "0.1.0",
       "publicDir": "sdk-recorder",
+      "bundledWorkspaceDependencies": [
+        "@flowr/sdk-core",
+        "@flowr/sdk-recorder-kernel",
+        "@flowr/sdk-rest",
+        "@flowr/sdk-ui",
+        "@flowr/shared-core"
+      ],
+      "lazyWorkspaceDependencies": [
+        "@flowr/sdk-ui/recorder-panel"
+      ],
       "files": [
         {
+          "path": "sdk-recorder/dist/chunk-6LGVLBTC.js",
+          "size": 66813,
+          "sha256": "38c53fca20438117a372819f8e102ca1796924d3490699aa508aac69e6ffe0b8"
+        },
+        {
           "path": "sdk-recorder/dist/index.cjs",
-          "size": 160023,
-          "sha256": "ec5541f7f67dcf839a96b8da5dfcfa6e7759c87c8e049f6e4c8df635ebd17368"
+          "size": 161970,
+          "sha256": "98eee5f6cfafe89c6db960fbfbf69fb5acfc30120c270a6abb8f5b82bfddff9a"
         },
         {
           "path": "sdk-recorder/dist/index.d.ts",
@@ -20,8 +35,13 @@
         },
         {
           "path": "sdk-recorder/dist/index.js",
-          "size": 160011,
-          "sha256": "158cca4c2bb326b13bd114646c31f316fc7954eb49a8b220318bd59423f46daf"
+          "size": 51270,
+          "sha256": "d450aed89c30d665d2c8349e60d1d77ac63fc80240ba38a0438bd3b760ccc8ba"
+        },
+        {
+          "path": "sdk-recorder/dist/recorder-panel-LJTT3DTH.js",
+          "size": 43282,
+          "sha256": "57c9a730600643a357f562fb9b9054013034e002ae1209e831f4db7774e4f5fc"
         },
         {
           "path": "sdk-recorder/package.json",
@@ -30,8 +50,8 @@
         },
         {
           "path": "sdk-recorder/README.md",
-          "size": 602,
-          "sha256": "8189e3a0dd3bdca4832e3e9aceb44cad3c9134a2b8e6457ae3b2a9d6c54c693c"
+          "size": 3878,
+          "sha256": "848cde47d50420bf6dc7cf53804becf3697f689f1f4d18c48dcd641f3c06b410"
         }
       ]
     },
@@ -39,21 +59,27 @@
       "name": "@flowr/sdk-replay",
       "version": "0.1.0",
       "publicDir": "sdk-replay",
+      "bundledWorkspaceDependencies": [
+        "@flowr/sdk-core",
+        "@flowr/sdk-rest",
+        "@flowr/shared-core"
+      ],
+      "lazyWorkspaceDependencies": [],
       "files": [
         {
           "path": "sdk-replay/dist/index.cjs",
-          "size": 80336,
-          "sha256": "8989ae742fa96baf929d2f86e76870bb2c973cde7f2fb879510df3a0a0773a1b"
+          "size": 81186,
+          "sha256": "fb9a3ecb12aefc4f6164d02bdfab800fe5204f192e1dfdcdda7af97f56af27e3"
         },
         {
           "path": "sdk-replay/dist/index.d.ts",
-          "size": 3305,
-          "sha256": "e9ad7c2c41ca33e29d1ad737713aecc2a47f295726f38ea5519c6e9f251429d2"
+          "size": 3778,
+          "sha256": "0521313195e09ecb1c990414ad7f9545a3310b41da968ab8696347c36f3b9940"
         },
         {
           "path": "sdk-replay/dist/index.js",
-          "size": 80262,
-          "sha256": "5aa1299dfc67b51b9d67eae70e0e7e6378b2026a1f3de90dea3a92eb30d4cccd"
+          "size": 81112,
+          "sha256": "b5f560bbc3f48963e205c08d486b128b615160a66a9fa663b391f4295f47be88"
         },
         {
           "path": "sdk-replay/package.json",
@@ -62,8 +88,8 @@
         },
         {
           "path": "sdk-replay/README.md",
-          "size": 418,
-          "sha256": "3a71b1c67bbf6548badb89a1ac23b8a49ac1754ea93d8136d00d9459cfe504d4"
+          "size": 3648,
+          "sha256": "ea0b36856d9f94fd6863c772fe0c74d6cc282a3dda7133b828785aa9430ae828"
         }
       ]
     }

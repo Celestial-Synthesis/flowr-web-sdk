@@ -72,26 +72,38 @@ type ReplayOptions = {
     pickerCopy?: SdkReplayPickerCopy;
     /** Optional copy overrides for the off-screen replay overlay banner. */
     overlayCopy?: SdkReplayOverlayCopy;
+    /** Use FlowR's built-in bubble/panel UI or drive replay entirely from host controls. */
+    uiMode?: "custom" | "sdk-ui";
     /** Optional explicit query-param matcher that opens the bubble when present. */
     queryLaunch?: SdkQueryLaunch;
     /** Defer fetching until `start()` is called. Default: false. */
     lazy?: boolean;
 };
-type ReplayHandle = {
+type ReplayRecordingListOptions = {
+    limit?: number;
+    cursor?: string;
+    title?: string;
+};
+type ReplayRecordingListPage = {
+    recordings: Recording[];
+    nextCursor?: string;
+};
+interface ReplayHandle {
     open(): void;
     close(): void;
     start(): Promise<void>;
     stop(): void;
     listRecordings(): Promise<Recording[]>;
+    listRecordings(options: ReplayRecordingListOptions): Promise<ReplayRecordingListPage>;
     setRecording(recording: Recording): void;
     destroy(): void;
     on<E extends ReplayEvent["type"]>(type: E, listener: (event: Extract<ReplayEvent, {
         type: E;
     }>) => void): () => void;
-};
+}
 declare const replay: (opts: ReplayOptions) => ReplayHandle;
 declare const _default: {
     replay: (opts: ReplayOptions) => ReplayHandle;
 };
 
-export { type ReplayEvent, type ReplayHandle, type ReplayOptions, _default as default, replay };
+export { type ReplayEvent, type ReplayHandle, type ReplayOptions, type ReplayRecordingListOptions, type ReplayRecordingListPage, _default as default, replay };
