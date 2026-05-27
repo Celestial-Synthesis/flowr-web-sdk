@@ -1,7 +1,7 @@
 import { Recording, Step, SdkTheme, SdkReplayPickerCopy, SdkReplayOverlayCopy, SdkQueryLaunch } from '@flowr/sdk-core';
 
 /**
- * @flowr/sdk-replay — guided replay only.
+ * @celestialsynthesis/flowr-sdk-replay — guided replay only.
  *
  * Public API:
  *   const handle = FlowR.replay({

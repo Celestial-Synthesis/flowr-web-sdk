@@ -1,8 +1,16 @@
-# @flowr/sdk-replay
+# @celestialsynthesis/flowr-sdk-replay
 
 FlowR replay SDK for embedding guided walkthrough replay inside a normal web page without the browser extension.
 
-Version: 0.1.0
+Version: 0.1.1
+
+Public package repo: https://github.com/Celestial-Synthesis/flowr-web-sdk/tree/main/sdk-replay
+
+## Install
+
+```bash
+npm install @celestialsynthesis/flowr-sdk-replay
+```
 
 ## CDN Import
 
@@ -10,7 +18,7 @@ Use an immutable tag for production embeds:
 
 ```html
 <script type="module">
-  import { replay } from "https://cdn.jsdelivr.net/gh/Celestial-Synthesis/flowr-web-sdk@sdk_v0.1.0/sdk-replay/dist/index.js";
+  import { replay } from "https://cdn.jsdelivr.net/gh/Celestial-Synthesis/flowr-web-sdk@sdk_v0.1.1/sdk-replay/dist/index.js";
 
   const handle = replay({
     baseUrl: "https://rfeiamxssoajeabwyean.supabase.co",

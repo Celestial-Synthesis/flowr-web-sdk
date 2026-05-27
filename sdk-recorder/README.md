@@ -1,8 +1,16 @@
-# @flowr/sdk-recorder
+# @celestialsynthesis/flowr-sdk-recorder
 
 FlowR recorder SDK for recording, editing, saving, and replaying guided walkthroughs inside a normal web page. This is the cloud-backed recorder, not the local-only development recorder.
 
-Version: 0.1.0
+Version: 0.1.1
+
+Public package repo: https://github.com/Celestial-Synthesis/flowr-web-sdk/tree/main/sdk-recorder
+
+## Install
+
+```bash
+npm install @celestialsynthesis/flowr-sdk-recorder
+```
 
 ## CDN Import
 
@@ -10,7 +18,7 @@ Use an immutable tag for production embeds:
 
 ```html
 <script type="module">
-  import { recorder } from "https://cdn.jsdelivr.net/gh/Celestial-Synthesis/flowr-web-sdk@sdk_v0.1.0/sdk-recorder/dist/index.js";
+  import { recorder } from "https://cdn.jsdelivr.net/gh/Celestial-Synthesis/flowr-web-sdk@sdk_v0.1.1/sdk-recorder/dist/index.js";
 
   const handle = recorder({
     baseUrl: "https://rfeiamxssoajeabwyean.supabase.co",

@@ -2,7 +2,7 @@ import { Recording, Step, RecordingVisibility, SdkTheme, SdkQueryLaunch } from '
 import { SdkSession, AuthClient } from '@flowr/sdk-rest';
 
 /**
- * @flowr/sdk-recorder — record + edit + replay, in-page, no extension.
+ * @celestialsynthesis/flowr-sdk-recorder — record + edit + replay, in-page, no extension.
  *
  * Auth model:
  *  - The developer integrating the SDK gets a FlowR-managed
